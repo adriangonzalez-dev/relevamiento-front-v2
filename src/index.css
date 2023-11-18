@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+    page-break-after: always; /* Esto generará un salto de página después de cada elemento con la clase "page" */
+  }
+
+@page {
+    size: A3;
+    margin: 0in;
+}
